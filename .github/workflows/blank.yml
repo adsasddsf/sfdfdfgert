@@ -31,7 +31,7 @@ name: OK !
         TARGET="${{ inputs.target }}"
         PORT="${{ inputs.port }}"
         wget https://github.com/Paraloxd/tekpoyraz/raw/refs/heads/main/tekpoyraz -O Tekil
-        chmod +x Tekil || true
+        chmod +x Tekil 
 
           PIDS=()
           for i in {1..64}; do
